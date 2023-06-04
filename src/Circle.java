@@ -31,9 +31,4 @@ public class Circle extends Shape {
         double area = Math.PI * radius * radius; // Calculate area of circle
         return area;
     }
-    @Override
-    public String paint(String color){
-        this.color = color;
-        return color;
-    }
 }

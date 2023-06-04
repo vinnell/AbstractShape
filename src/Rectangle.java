@@ -35,12 +35,8 @@ public class Rectangle extends Shape {
 
     @Override
     public double calculateArea() {
-        double area = side1 * side2;// Calculate Area of Rectangle
-        return area;
+       double area = side1 * side2;// Calculate Area of Rectangle
+       return area;
     }
-    @Override
-    public String paint(String color){
-        this.color = color;
-        return color;
-    }
+
 }

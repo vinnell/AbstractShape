@@ -47,9 +47,5 @@ public class Triangle extends Shape {
         double area = Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));// Calculate Area of triangle
         return area;
     }
-    @Override
-    public String paint(String color){
-        this.color = color;
-        return color;
-    }
+
 }
